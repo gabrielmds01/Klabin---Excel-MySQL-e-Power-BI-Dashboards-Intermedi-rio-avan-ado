@@ -1,1 +1,2 @@
-
+- Explorando Sample do Power BI através de análise de dados, insights, relatórios e dashboards.
+- Analisando dados de um Dashboard de Vendas no Power BI
