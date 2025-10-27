@@ -7,27 +7,26 @@ A terceira página, a qual vocês irão criar sozinhos, deve conter alguns visua
 
 Muito bem, a terceira página é composta por: 
 
-Visual mapa 1: Soma de sales e unidades vendidas por país 
+- Visual mapa 1: Soma de sales e unidades vendidas por país 
 
-Visual mapa 2: Soma de lucro (profit) por país 
+- Visual mapa 2: Soma de lucro (profit) por país 
 
-Visual de pizza: Lucro por segmento 
+- Visual de pizza: Lucro por segmento 
 
  
 
 Além disso: 
 
-Verifique a disposição dos visuais no relatório 
+- Verifique a disposição dos visuais no relatório 
 
-Modifique os nomes dos visuais para algo mais claro e direto (de acordo com o contexto) 
+- Modifique os nomes dos visuais para algo mais claro e direto (de acordo com o contexto) 
 
-Preste atenção aos campos que são utilizados como dicas de ferramentas  
+- Preste atenção aos campos que são utilizados como dicas de ferramentas  
 
-Publique o relatório 
+- Publique o relatório 
 
-Compartilhe como suplemento no Power Point 
-
-Caso não tenha Power Point, salve o projeto de Power BI
+- Compartilhe como suplemento no Power Point 
 
 - Explorando Sample do Power BI através de análise de dados, insights, relatórios e dashboards.
+  
 - Analisando dados de um Dashboard de Vendas no Power BI
