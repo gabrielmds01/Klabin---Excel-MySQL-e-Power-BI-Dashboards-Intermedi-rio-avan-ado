@@ -1,7 +1,8 @@
 -- Banco: company (esquema de exemplo)
 
-CREATE SCHEMA IF NOT EXISTS `company` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+CREATE SCHEMA IF NOT EXISTS `company`;
 USE `company`;
+
 
 -- Criar tabela employee primeiro, sem FK que referencie departament (para evitar ciclo)
 -- DROP TABLE IF EXISTS `employee`;
@@ -19,6 +20,14 @@ CREATE TABLE `employee` (
   CONSTRAINT pk_employee PRIMARY KEY (Ssn),
   CONSTRAINT chk_salary_employee CHECK (Salary > 2000.0)
 );
+
+alter table employee
+add constraint fk_employee
+foreign key(Super_ssn) references employee(Ssn)
+on delete set null
+on update cascade;
+
+alter table employee modify Dno int not null default 1;
 
 -- Criar departament (note: Mgr_ssn será FK para employee; deixamos nullable até criar FK)
 -- DROP TABLE IF EXISTS `departament`;
@@ -71,3 +80,22 @@ CREATE TABLE `dependent` (
   Age INT,
   PRIMARY KEY (Essn, Dependent_name)
 );
+
+
+SELECT CONCAT('SELECT * FROM ', table_name, ';')
+FROM information_schema.tables
+WHERE table_schema = 'company';
+
+use information_schema;
+
+show tables;
+
+SELECT * FROM departament;
+SELECT * FROM dependent;
+SELECT * FROM dept_locations;
+SELECT * FROM employee;
+SELECT * FROM project;
+SELECT * FROM works_on;
+
+show tables;
+
