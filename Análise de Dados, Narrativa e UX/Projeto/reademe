@@ -1,1 +1,18 @@
+Visão Geral do Projeto
 
+
+Este projeto traz boas práticas de criação de relatórios com foco em User Experience (UX) e storytelling, utilizando ferramentas como Power BI. 
+O objetivo principal é garantir relatórios interativos, intuitivos e acessíveis, orientados pela experiência do usuário e pelas necessidades do público-alvo.​
+
+- Elementos
+Definição de Escopo : Identificação do público-alvo, tipos de relatório (analítico, operacional, educacional) e requisitos de interface e usabilidade.​
+Experiência do Usuário (UX) : Relatórios devem ser autoexplicativos, rápidos, acessíveis, e usar paleta de cores, tipografia e identidade visual homologadas à marca.​
+Storytelling e Layout : Planejamento do layout a partir dos requisitos empresariais, focando na disposição dos visuais e na narrativa para facilitar a compreensão dos dados pelo usuário.​
+Acessibilidade : Adaptações como fontes claras e grandes, navegação intuitiva, e contraste de núcleos para atender diferentes perfis de usuários, seguindo as diretrizes WCAG.​
+Recursos Interativos : Segmentadores, filtros, indicadores e botões otimizam a navegação e a personalização da visualização dos dados.​
+Boas Práticas em Visualização : Evitar margens para interpretações erradas, usar padrões corporativos e privilegiar narrativas visuais que respondam às principais perguntas do negócio.​
+
+- Objetivos
+Auxiliar na tomada de decisão baseada em dados confiáveis ​​e bem apresentados.Simplifique o consumo das informações para diferentes níveis de usuários (executivos, analistas, operadores, público não familiarizado).
+Promover relatórios mais compreensíveis, relevantes e acessíveis.
+Este projeto serve de referência para equipes que desejam elevar a qualidade dos relatórios corporativos, tornando-as verdadeiras ferramentas de comunicação orientadas a dados e centradas no usuário.
